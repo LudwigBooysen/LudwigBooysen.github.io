@@ -1,3 +1,4 @@
+
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/ThemeDevBadge.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
@@ -46,10 +47,10 @@
 	--vbackdropsize:				var(--backdropsize,					var(--vbackgroundsize));
 	--vbackdropblur:				var(--backdropblur,					var(--vbackgroundblur));
 
-	--fontwhite1: 					255,255,255;
-	--fontwhite2: 					210,210,210;
-	--fontwhite3: 					170,170,170;
-	--fontwhite4: 					120,120,120;
+	--fontwhite1: 					210,51,51;
+	--fontwhite2: 					210,51,51;
+	--fontwhite3: 					170,51,51;
+	--fontwhite4: 					120,51,51;
 }
 
 .theme-light, .theme-dark {
