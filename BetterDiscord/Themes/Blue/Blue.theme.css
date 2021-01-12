@@ -1,0 +1,15 @@
+
+/**
+ * @name Blue
+ * @description Blue
+ * @author ICY_Craft_YT
+ * @version 0.1
+ */
+
+@import url(https://ludwigbooysen.github.io/BetterDiscord/Themes/Blue/Blue.css);
+
+:root {
+
+	--bgColor: blue;
+
+}
