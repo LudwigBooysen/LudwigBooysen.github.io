@@ -1,6 +1,6 @@
 /**
- * @name BasicBackground
- * @description Use a background image in Discord without greatly altering the basic look of Discord
+ * @name Blue
+ * @description A Blue Theme
  * @author ICY_Craft_YT
  * @version 0.1
  */
@@ -20,7 +20,7 @@
 	--font:							Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;		/* font used in most places														*/
 	--textshadow:					transparent;				/* default: transparent			(textshadow for text ontop of accentcolor nodes, ONLY accepts a color, no px)	*/
 	
-	--background:					url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/background.jpg);	/* general background image						*/
+	--background:					#0000aa;	/* general background image						*/
 	--backgroundposition:			center;						/* default: center				(position of background - values: [center/top/right/bottom/left])				*/
 	--backgroundsize:				cover;						/* default: cover				(sizefit of background - values: [cover/contain/auto])							*/
 	--backgroundblur:				unset;						/* default: unset				(blur in px, only works when --background is set to an image)							*/
