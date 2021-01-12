@@ -47,10 +47,10 @@
 	--vbackdropsize:				var(--backdropsize,					var(--vbackgroundsize));
 	--vbackdropblur:				var(--backdropblur,					var(--vbackgroundblur));
 
-	--fontwhite1: 					0,0,0;
-	--fontwhite2: 					0,0,0;
-	--fontwhite3: 					0,0,0;
-	--fontwhite4: 					0,0,0;
+	--fontwhite1: 					190,51,51;
+	--fontwhite2: 					190,51,51;
+	--fontwhite3: 					190,51,51;
+	--fontwhite4: 					190,51,51;
 }
 
 .theme-light, .theme-dark {
@@ -7708,7 +7708,7 @@ html .channelTabs-newTab:hover {
 /* ~~~~		18.		UPDATENOTICE					~~~~ */
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp::before {
-	content: "Your version of   Blue   by ICY_Craft_YT is outdated. Please download the newest version from:	https://github.com/mwittrien/BetterDiscord/Themes/Blue" !important;
+	content: "Your version of   Fire   by ICY_Craft_YT is outdated. Please download the newest version from:	https://github.com/LudwigBooysen/BetterDiscord/Themes/Fire" !important;
 	display: var(--version1_0_5, block) !important;
 	background-color: #4a90e2 !important;
 	box-shadow: 0 1px 5px 0 rgba(var(--vtransparencycolor), 0.3) !important;
@@ -7744,7 +7744,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 /* ~~~~		19.		WATERMARK						~~~~ */
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div.layer-3QrUeG.baseLayer-35bLyl + div.layer-3QrUeG > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 > nav.sidebar-CFHs9e > div.side-8zPYf6 > div.info-1VyQPT::after {
-	content: "Blue by" !important;
+	content: "Fire by" !important;
 	font-size: 12px !important;
 	color: var(--text-muted) !important;
 	cursor: pointer !important;
