@@ -2,7 +2,7 @@
  * @name Fire
  * @description A Theme designed for Fire999
  * @author ICY_Craft_YT
- * @version 0.1
+ * @version 1.0
  */
 
 /* To change stuff like the colors, transparency and background image, change the variables inside the root {}, do NOT change the @import url() */
@@ -10,12 +10,12 @@
 @import url(https://ludwigbooysen.github.io/BetterDiscord/Themes/Fire/Fire.css);
 
 :root {
-	--transparencycolor:			0,0,0;						/* default:	0,0,0																								*/
-	--transparencyalpha:			0.15;						/* default: 0.15				(general darkness of the app)													*/
-	--messagetransparency:			0.5;						/* default: 0.5					(additional shadows behind messages, set to 0 to remove boxes)					*/
-	--guildchanneltransparency:		0.15;						/* default: 0.15				(additional darkness for guild/channel list)									*/
-	--memberlisttransparency:		0.0;						/* default: 0.0					(additional darkness for member list)											*/
-	--accentcolor:					190,78,180;					/* default: 190,78,180			(RGB-format - blurple: 114,137,218 bd-blue: 58,113,193)							*/
+	--transparencycolor:			51,51,51;						/* default:	0,0,0																								*/
+	--transparencyalpha:			0.75;						/* default: 0.15				(general darkness of the app)													*/
+	--messagetransparency:			0.90;						/* default: 0.5					(additional shadows behind messages, set to 0 to remove boxes)					*/
+	--guildchanneltransparency:		1;						/* default: 0.15				(additional darkness for guild/channel list)									*/
+	--memberlisttransparency:		1;						/* default: 0.0					(additional darkness for member list)											*/
+	--accentcolor:					11,150,210;					/* default: 190,78,180			(RGB-format - blurple: 114,137,218 bd-blue: 58,113,193)							*/
 	
 	--font:							Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;		/* font used in most places														*/
 	--textshadow:					transparent;				/* default: transparent			(textshadow for text ontop of accentcolor nodes, ONLY accepts a color, no px)	*/
