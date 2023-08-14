@@ -17,12 +17,14 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
 
 body {
 	line-height: 1;
@@ -2906,7 +2908,7 @@ input, select, textarea {
 		cursor: default;
 	}
 
-		header > .date {
+		header > .present {
 			display: block;
 			font-size: 0.8rem;
 			height: 1;
@@ -2953,12 +2955,12 @@ input, select, textarea {
 				text-align: center;
 			}
 
-			header.major > .date {
+			header.major > .present {
 				font-size: 1rem;
 				margin: 0 0 4rem 0;
 			}
 
-				header.major > .date:before, header.major > .date:after {
+				header.major > .present:before, header.major > .present:after {
 					content: '';
 					display: block;
 					position: absolute;
@@ -2967,11 +2969,11 @@ input, select, textarea {
 					border-top: solid 2px;
 				}
 
-				header.major > .date:before {
+				header.major > .present:before {
 					left: 0;
 				}
 
-				header.major > .date:after {
+				header.major > .present:after {
 					right: 0;
 				}
 
@@ -2991,7 +2993,7 @@ input, select, textarea {
 
 		}
 
-	header.major .date:before, header.major .date:after {
+	header.major .present:before, header.major .present:after {
 		border-top-color: #eeeeee;
 	}
 
@@ -3777,7 +3779,7 @@ input, select, textarea {
 			padding: 8rem 8rem 6rem 8rem ;
 		}
 
-			#main > .post header.major > .date {
+			#main > .post header.major > .present {
 				margin-top: -2rem;
 			}
 
@@ -3805,7 +3807,7 @@ input, select, textarea {
 					padding: 4rem 2rem 2rem 2rem ;
 				}
 
-					#main > .post header.major > .date {
+					#main > .post header.major > .present {
 						margin-top: -1rem;
 						margin-bottom: 2rem;
 					}
@@ -4125,7 +4127,7 @@ input, select, textarea {
 			box-shadow: inset 0 0 0 2px #18bfef;
 		}
 
-		#footer header.major .date:before, #footer header.major .date:after {
+		#footer header.major .present:before, #footer header.major .present:after {
 			border-top-color: #e2e2e2;
 		}
 
