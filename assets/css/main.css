@@ -3186,7 +3186,12 @@ input, select, textarea {
 		}
 
 	.pagination a, .pagination span {
-		border-color: #eeeeee;
+		border-color: #c5c5c5;
+		border-radius: 100px;
+	}
+
+	.pagination a:nth-child(1) {
+		margin-right: 10px;
 	}
 
 	.pagination a {
@@ -3198,11 +3203,6 @@ input, select, textarea {
 			border-color: #18bfef;
 			z-index: 1;
 		}
-
-			.pagination a:hover + a,
-			.pagination a:hover + span {
-				border-left-color: #18bfef;
-			}
 
 		.pagination a.active {
 			background-color: #eeeeee;
@@ -3859,24 +3859,9 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
-				border-color: #eeeeee;
-				border-left-width: 2px;
-				border-style: solid;
-				border-top-width: 2px;
+				border: 1px solid #c5c5c5;
 				text-align: center;
 			}
-
-				#main > .posts > article > :last-child {
-					margin-bottom: 0;
-				}
-
-				#main > .posts > article:nth-child(2n - 1) {
-					border-left-width: 0;
-				}
-
-				#main > .posts > article:nth-child(-n + 2) {
-					border-top-width: 0;
-				}
 
 			@media screen and (max-width: 980px) {
 
@@ -4617,7 +4602,6 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
 			width: 7rem;
 		}
 
@@ -4684,3 +4668,21 @@ input, select, textarea {
 		}
 
 	}
+
+
+#nav {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#header > a {
+	border-radius: 10px;
+}
+
+.button {
+	border-radius: 10px;
+}
+
+.page-selector-container {
+	border-bottom: 1px solid #c5c5c5;
+}
