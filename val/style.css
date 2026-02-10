@@ -1,0 +1,153 @@
+
+/* Imported Styles */
+
+
+.custom-font {
+  font-family: "Playwrite NZ Basic", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* General Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(142deg, rgba(29, 14, 194, 0.9) 25%, rgba(152, 2, 179, 0.9) 75%);
+    filter: brightness(80%);
+    filter: blur(10%);
+    display: block;
+}
+
+#Question-Box-Container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(90%);
+    width: 45%;
+    height: 15%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #313131;
+}
+
+#Question-Box > h1 {
+    color: #5447b3;
+}
+
+#Buttons-Container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#Buttons-Container > button {
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+#Yes-Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 100px;
+    height: 50px;
+    color: #195e32;
+    border: #195e32 solid 2px;
+    cursor: pointer;
+}
+
+#No-Button {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 400px;
+    font-size: 10px;
+    width: 25px;
+    height: 25px;
+    color: #ca0e0e;
+    border: #ca0e0e solid 2px;
+}
+
+/* Cursor effect */
+
+.glow-point {
+    position: absolute;
+    box-shadow: 0rem 0rem 2rem 0.6rem #e60505;
+    pointer-events: none;
+}
+
+.dot {
+    position: fixed;
+    font-size: 24px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    pointer-events: none;
+}
+
+@keyframes fall-1 {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0px, 167px) rotate(-78deg) scale(1.4);
+        opacity: 0;
+    }
+}
+
+@keyframes fall-2 {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0px, 240px) rotate(145deg);
+        opacity: 0;
+    }
+}
+
+@keyframes fall-3 {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg) scale(1.2) skewY(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0px, 69px) rotate(-90deg) scale(0.8) skewY(20deg);
+        opacity: 0;
+    }
+}
+
+/* Cat images */
+
+.cat {
+    position: fixed;
+    border: transparent solid 2px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}

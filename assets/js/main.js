@@ -257,9 +257,14 @@
 
 })(jQuery);
 
-function sendMessage(){
+function sendMessage() {
 	var email = "ludwig.booysen@gmail.com";
 	var subject = document.getElementById('name').value;
 	var msgBody = document.getElementById('message').value;
 	window.open(`mailto:${email}?subject=${subject}&body=${msgBody}`);
-  }
+	localStorage.setItem("storedItem", email);
+}
+
+function getMessages() {
+	alert(localStorage.getItem("storedItem"))
+}
